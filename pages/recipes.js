@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <selection className={styles.container}>
         <h1 className={styles.title}>
-          Legend Of Zelda Guide Home
+          Legend Of Zelda Guide Recipes
         </h1>
     </selection>
   )
