@@ -1,17 +1,17 @@
 import Link from 'next/link'
 
-import styles from '../styles/Home.module.sass'
+import styles from './navbar.module.scss'
 
 export default function Nav () {
   return (
     <nav className={styles.navbar}>
-      <Link href="/">
+      <Link href="/" className={styles.link}>
         <a>Home</a>
       </Link>
-      <Link href="/about">
+      <Link href="/about" className={styles.link}>
         <a >About</a>
       </Link>
-      <Link href="/recipes">
+      <Link href="/recipes" className={styles.link}>
         <a>Recipes</a>
       </Link>
     </nav>
