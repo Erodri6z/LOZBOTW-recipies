@@ -6,7 +6,7 @@ export default function About() {
   return (
     <selection>
         <h1>
-          Legend Of Zelda Guide About
+          About
         </h1>
     </selection>
   )

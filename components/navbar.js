@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
+import styles from '../styles/Home.module.sass'
+
 export default function Nav () {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <Link href="/">
         <a>Home</a>
       </Link>
