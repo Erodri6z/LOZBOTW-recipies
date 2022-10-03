@@ -9,6 +9,7 @@ export default function Home() {
       <h1 className={styles.title}>
         Recipes
       </h1>
+      <p>This will have the recipies or blogs</p>
     </selection>
   )
 }

@@ -8,6 +8,7 @@ export default function About() {
         <h1>
           About
         </h1>
+        <p>basically this entire app is a sandbox to help me understand next.js and sass</p>
     </selection>
   )
 }

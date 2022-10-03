@@ -9,6 +9,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Home
         </h1>
+        <p>
+          So basically this will be the home page of this app
+        </p>
     </selection>
   )
 }
